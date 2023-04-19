@@ -14,7 +14,7 @@ const Footer = () => {
             <li>
               <form action="" className="input">
                 <input type="text" placeholder="Enter your email" />
-                <SendIcon/>
+                <SendIcon className="send-icon"/>
               </form>
             </li>
           </ul>
@@ -22,15 +22,11 @@ const Footer = () => {
 
         <div>
           <ul>
-            <li>exclusive</li>
-            <li>Subscribe</li>
-            <li>Get 10% off your first order</li>
-            <li>
-              <form action="" className="input">
-                <input type="text" />
-                icon
-              </form>
-            </li>
+            <li className="title">Support</li>
+            <li>111 Bijoy sarani, Dhaka,  DH 1515, Bangladesh.</li>
+            <li>exclusive@gmail.com</li>
+            <li>+88015-88888-9999</li>
+            
           </ul>
         </div>
 

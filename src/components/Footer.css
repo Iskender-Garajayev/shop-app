@@ -1,8 +1,3 @@
-:root{
-  --iter : font-family: 'Inter', sans-serif;
-}
-
-
 .footer-container{
   width: 100%;
   height: 440px;
@@ -23,7 +18,7 @@
 
 li{
   list-style-type: none;
-  padding-bottom: 10px;
+  padding-top: 24px;
 }
 
 .footer-logo{
@@ -49,6 +44,7 @@ li{
   border-radius: 4px;
   width: 217px;
   height: 48px;
+  /* margin-top: 20px; */
 }
 
 .input input{
@@ -59,4 +55,13 @@ li{
   margin-left: 16px;
   width: 130px;
   margin-right: 28px;
+}
+
+.send-icon{
+  cursor: pointer;
+}
+
+.title{
+  font-family: Poppins;
+  font-size: 24px;
 }
