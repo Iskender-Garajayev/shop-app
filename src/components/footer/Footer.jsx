@@ -1,9 +1,9 @@
 import React from "react";
 import "./Footer.css";
 import SendIcon from "@mui/icons-material/Send";
-import QRCode from "../img/Qrcode 1.png";
-import GooglePlay from "../img/google-pkay.png";
-import AppStore from "../img/download-appstore.png";
+import QRCode from "../../img/Qrcode 1.png";
+import GooglePlay from "../../img/google-pkay.png";
+import AppStore from "../../img/download-appstore.png";
 import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
