@@ -19,6 +19,8 @@
 li {
   list-style-type: none;
   padding-top: 18px;
+  color: #FAFAFA;
+  font-weight: 300;
 }
 
 .footer-logo {
