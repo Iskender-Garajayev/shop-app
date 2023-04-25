@@ -1,5 +1,65 @@
 .mySwiper{
   width: 892;
-  height: 334px;
+  height: 344px;
   /* background: pink; */
+  margin-top: 40px;
+  margin-left: 45px;
+}
+
+.item1{
+  background: black;
+  display: flex;
+  flex-direction: row;
+  color: #fafafa;
+  font-family: Poppins;
+}
+
+.sw-title{
+  width: 40%;
+  margin-left: 64px;
+  margin-top: 60px;
+}
+
+.sw-img img{
+  position: relative;
+  right: 0;
+  /* margin-top: 16px; */
+  width: 496px;
+}
+
+.title-logo{
+display: flex;
+width: 190px;
+height: 40px;
+align-items: center;
+justify-content: space-between;
+font-size: 16x;
+font-weight: 400;
+line-height: 24px;
+}
+
+.sub-title{
+  width: 284px;
+  height: 120px;
+  font-size: 48px;
+  line-height: 60px;
+  margin-top: 20px;
+}
+
+.sw-title :nth-child(3){
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 22px;
+  
+}
+
+.sw-title :nth-child(4){
+border-bottom: 1px solid #fafafa; 
+width: 80px;
+margin-top: 4px;
+}
+
+.sw-icon{
+ margin-left: 9px;
 }

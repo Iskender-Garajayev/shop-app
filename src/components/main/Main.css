@@ -4,13 +4,30 @@
   display: flex;
   flex-direction: row;
   margin: auto;
+  justify-content: space-between;
+  
 }
 
 .main-menu{
   /* flex: 3; */
+  height: 380px;
+  border-right: 0.5px solid black;
+}
+
+.main-menu ul{
+  margin-right: 0;
+  margin-top: 40px;
   width: 217px;
   height: 334px;
-  background: red;
+}
+
+.main-menu ul li{
+  font-family: Poppins;
+  color: black;
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 13px;
 }
 
 .main-swiper{
