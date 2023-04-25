@@ -16,6 +16,11 @@
   padding-top: 80px;
 }
 
+.footer-title ul li{
+  list-style-type: none;
+  padding-bottom: 24px;
+}
+
 .title-container li {
   list-style-type: none;
   padding-top: 18px;
