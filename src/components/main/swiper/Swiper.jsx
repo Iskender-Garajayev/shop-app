@@ -2,7 +2,7 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import Iphone from '../../../img/iphone.png'
-import AppleLogo from '../../../img/1200px-Apple_gray_logo 1.png'
+import AppleLogo from '../../../img/appleLogo.png'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 
