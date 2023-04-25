@@ -1,0 +1,21 @@
+.main-container{
+  width: 1170px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.main-menu{
+  /* flex: 3; */
+  width: 217px;
+  height: 334px;
+  background: red;
+}
+
+.main-swiper{
+  /* flex:70px; */
+  width: 892px;
+  height: 334px;
+  /* background: blue; */
+}
