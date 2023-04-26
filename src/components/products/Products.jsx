@@ -5,10 +5,17 @@ import './Product.css'
 const Products = () => {
   return (
     <>
+      <div className="card-container">
 
       {data.map((data) => (
-        <img src={data.image} alt="" />
+        <div className="card">
+          <img src={data.image} alt="" />
+          <div className="title">
+            <h3>{data.name}</h3>
+          </div>
+        </div>
       ))}
+      </div>
    
     </>
   )
