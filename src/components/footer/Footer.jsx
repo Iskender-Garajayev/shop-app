@@ -61,7 +61,7 @@ const Footer = () => {
           <div className="dowload-title-container">
             <div className="text">Save $3 with App New User Only</div>
             <div className="img">
-              <img src={QRCode} alt="" />
+              <img src={QRCode} alt="QRCode" />
               <div className="dowload-app">
                 <img src={GooglePlay} alt="Google play" />
                 <img src={AppStore} alt="App Storey" />
