@@ -10,7 +10,7 @@ const Products = () => {
       {data.map((data) => (
         <div className="card">
           <img src={data.image} alt="" />
-          <div className="title">
+          <div className="card-title">
             <h3>{data.name}</h3>
             <span>{data.price}</span>
           </div>
