@@ -12,6 +12,7 @@ const Products = () => {
           <img src={data.image} alt="" />
           <div className="title">
             <h3>{data.name}</h3>
+            <span>{data.price}</span>
           </div>
         </div>
       ))}
