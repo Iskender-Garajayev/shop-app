@@ -27,6 +27,15 @@
   width: 496px;
 }
 
+.sw-img .PcConsole{
+  width: 329px;
+}
+
+.title-logo .PsConsole{
+  width: 150px;
+  margin-left: -10px;
+}
+
 .title-logo{
 display: flex;
 width: 190px;

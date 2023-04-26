@@ -3,6 +3,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import Iphone from '../../../img/iphone.png'
 import AppleLogo from '../../../img/appleLogo.png'
+import PcConsole from '../../../img/ps5-slim.png'
+import PsLogo from '../../../img/ps5Logo.png'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 
@@ -56,8 +58,8 @@ export default function App() {
         <div className="item1">
           <div className="sw-title">
             <div className="title-logo">
-              <img src={AppleLogo} alt="Apple Logo" />
-              <p>iPhone 14 Series</p>
+              <img className="PsConsole" src={PsLogo} alt="Ps5 Logo" />
+              {/* <p>iPhone 14 Series</p> */}
             </div>
             <p className="sub-title">Up to 10% off Voucher</p>
             <p>Shop Now  <ArrowForwardIcon className="sw-icon"/></p>
@@ -66,7 +68,7 @@ export default function App() {
             </div>
           </div>
           <div className="sw-img">
-            <img src={Iphone} alt="Iphone" />
+            <img className="PcConsole" src={PcConsole} alt="Iphone" />
           </div>
         </div>
         </SwiperSlide>
