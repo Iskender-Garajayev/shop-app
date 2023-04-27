@@ -1,21 +1,12 @@
-// import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import Iphone from '../../../img/iphone.png'
 import AppleLogo from '../../../img/appleLogo.png'
 import PsConsole from '../../../img/ps5-slim.png'
 import PsLogo from '../../../img/ps5Logo.png'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import './swiper.css'
-
-// import "./styles.css";
-
-// import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function App() {
