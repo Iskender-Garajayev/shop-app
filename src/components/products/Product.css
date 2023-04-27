@@ -4,20 +4,21 @@
   color: black;
   display: flex;
   flex-direction: row;
+  gap: 20px;
 
 }
 .card{
   width: 200px;
   height: 300px;
-  margin-left: 10px;
   color: black;
-  background: #f5f5f5;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: blue;
 }
 
 .card img{
+  background: #f5f5f5;
   width: 140px;
   margin-top: 15px;
 }

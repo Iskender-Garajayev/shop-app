@@ -8,7 +8,7 @@ const Products = () => {
       <div className="card-container">
 
       {data.map((data) => (
-        <div className="card">
+        <div className="card row-span">
           <img src={data.image} alt="" />
           <div className="card-title">
             <h3>{data.name}</h3>
