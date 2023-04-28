@@ -87,3 +87,7 @@
   flex-direction: row;
   justify-content: space-around;
 }
+
+.navbar ul li a.active{
+  border-bottom: 1px solid #000000;
+}

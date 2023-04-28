@@ -3,7 +3,7 @@ import './Header.css'
 import SearchIcon from '@mui/icons-material/Search';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -17,19 +17,19 @@ const Header = () => {
 <div className="navbar">
   <ul> 
     <li>
-      <Link to='/'>
+      <NavLink to='/' className='navbar-link'>
       Home
-      </Link>
+      </NavLink>
       </li>
-    <li><Link to='/contacts'>
+    <li><NavLink to='/contacts' className='navbar-link' >
       Contacts
-      </Link></li>
-    <li><Link to='/about'>
+      </NavLink></li>
+    <li><NavLink to='/about' className='navbar-link' >
       About
-      </Link></li>
-    <li><Link to='/signup'>
+      </NavLink></li>
+    <li><NavLink to='/signup' className='navbar-link' >
       Sing Up
-      </Link></li>
+      </NavLink></li>
   </ul>
 </div>
 
