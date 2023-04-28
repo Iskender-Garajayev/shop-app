@@ -3,7 +3,7 @@ import './Header.css'
 import SearchIcon from '@mui/icons-material/Search';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -15,11 +15,21 @@ const Header = () => {
 </div>
 
 <div className="navbar">
-  <ul>
-    <li>Home</li>
-    <li>Contact</li>
-    <li>About</li>
-    <li>Sign Up</li>
+  <ul> 
+    <li>
+      <Link to='/'>
+      Home
+      </Link>
+      </li>
+    <li><Link to='/contacts'>
+      Contacts
+      </Link></li>
+    <li><Link to='/about'>
+      About
+      </Link></li>
+    <li><Link to='/signup'>
+      Sing Up
+      </Link></li>
   </ul>
 </div>
 

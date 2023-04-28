@@ -1,19 +1,22 @@
 import './App.css';
-import Footer from './components/footer/Footer';
-import Header from './components/Header/Header'
-import Main from './components/main/Main';
-// import Swiper from './components/main/swiper/Swiper';
-import HomeScreen from './components/homescreen/HomeScreen';
-import Time from './components/time/Time';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './pages/home/Home';
+import Contacts from './pages/contacts/Contacts';
+import About from './pages/about/About';
+import Singin from './pages/singin/Singin';
+
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Main/>
-      <HomeScreen/>
-      <Time/>
-      <Footer/>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home/>} />
+          <Route path='/contacts' element={<Contacts/>} />
+          <Route path='/about' element={<About/>} />
+          <Route path='/signup' element={<Singin/>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

@@ -49,6 +49,9 @@
 .navbar{
   width: 370px;
   height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .header-input{
