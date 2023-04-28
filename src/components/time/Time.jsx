@@ -29,11 +29,17 @@ const Time = () => {
   }, [countdownDate]);
 
   return (
-    <div className='time-container grid gap-4' >
-      <p >{countdown.days} days</p>
-      <p>{countdown.hours} hours</p>
-      <p>{countdown.minutes} minutes</p>
-      <p>{countdown.seconds} seconds</p>
+    <div className='time-container' >
+      <div> <p>day</p>
+       {countdown.days}
+      </div>
+      
+      <span>:</span>
+      <div> <p>hours</p> {countdown.hours}  </div>
+      <span>:</span>
+      <div> <p>minutes</p> {countdown.minutes} </div>
+      <span>:</span>
+      <div> <p>seconds</p> {countdown.seconds} </div>
     </div>
   );
 };

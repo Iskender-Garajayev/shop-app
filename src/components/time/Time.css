@@ -1,3 +1,9 @@
 .time-container{
   display: flex;
+  flex-direction: row;
+}
+
+.time-container p{
+  display: flex;
+  flex-direction: column;
 }
