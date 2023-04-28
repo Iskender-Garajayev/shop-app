@@ -1,9 +1,25 @@
 .time-container{
   display: flex;
   flex-direction: row;
+  align-items: center;
+  gap: 10px;
 }
 
-.time-container p{
+.time-container div{
   display: flex;
   flex-direction: column;
+  /* width: 65px; */
+  /* align-items: center; */
+  font-size: 24px;
+  font-weight: 650;
+}
+
+.time-container div p{
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.time-container span{
+  color: #E07575;
+  font-size: 23px;
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import Time from '../../time/Time'
 import Products from './Products/Products'
+import './tudaysProduct.css'
 
 const TodaysProducts = () => {
   return (
