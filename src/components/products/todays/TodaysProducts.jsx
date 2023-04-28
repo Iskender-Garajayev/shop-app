@@ -1,5 +1,6 @@
 import React from 'react'
 import Time from '../../time/Time'
+import Products from './Products/Products'
 
 const TodaysProducts = () => {
   return (
@@ -13,8 +14,8 @@ const TodaysProducts = () => {
         <div className="time-down">
           <Time/>
         </div>
-
       </div>
+      <Products/>
     </div>
   )
 }
