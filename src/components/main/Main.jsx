@@ -15,7 +15,7 @@ const Main = () => {
           <li>Sports & Outdoor</li>
           <li>Baby’s & Toys</li>
           <li>Groceries & Pets</li>
-          <li>Groceries & Pets</li>
+          <li>Health & Beauty</li>
         </ul>
       </div>
       <div className="main-swiper">
