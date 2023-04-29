@@ -5,6 +5,7 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { NavLink, Link } from 'react-router-dom';
 
+
 const Header = () => {
   return (
     <div className="header-container">
@@ -41,8 +42,9 @@ const Header = () => {
     </form>
   </div>
   <div className="header-icons">
-    <Link to='/wishlist' ><FavoriteBorderIcon/></Link>
-    <Link to='/cart' ><ShoppingCartIcon/></Link>
+    <Link to='/wishlist' ><ion-icon name="heart-outline"></ion-icon></Link>
+    <Link to='/cart' ><ion-icon name="cart-outline"></ion-icon></Link>
+    
   </div>
 </div>
 </div>
