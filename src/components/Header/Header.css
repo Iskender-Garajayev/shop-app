@@ -86,7 +86,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   font-size: 23px;
+}
+
+.header-icons a{
+  display: flex;
+  align-items: center;
 }
 
 .navbar ul li a.active{
