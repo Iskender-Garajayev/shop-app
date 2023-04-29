@@ -3,7 +3,7 @@ import './Header.css'
 import SearchIcon from '@mui/icons-material/Search';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -41,8 +41,8 @@ const Header = () => {
     </form>
   </div>
   <div className="header-icons">
-    <FavoriteBorderIcon/>
-    <ShoppingCartIcon/>
+    <Link to='/wishlist' ><FavoriteBorderIcon/></Link>
+    <Link to='/cart' ><ShoppingCartIcon/></Link>
   </div>
 </div>
 </div>
