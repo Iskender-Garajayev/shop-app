@@ -4,7 +4,6 @@ import SearchIcon from '@mui/icons-material/Search';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { NavLink, Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Header = () => {
   return (
@@ -44,8 +43,6 @@ const Header = () => {
   <div className="header-icons">
     <Link to='/wishlist' ><FavoriteBorderIcon/></Link>
     <Link to='/cart' ><ShoppingCartIcon/></Link>
-    <i class="fa-light fa-cart-shopping"></i>
-    <FontAwesomeIcon icon="fa-light fa-cart-shopping" />
   </div>
 </div>
 </div>
