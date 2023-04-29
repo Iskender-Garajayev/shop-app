@@ -15,7 +15,7 @@
 }
 
 .main-menu ul{
-  margin-right: 0;
+  margin-right: 16px;
   margin-top: 40px;
   width: 217px;
   height: 334px;
@@ -35,4 +35,18 @@
   width: 892px;
   height: 334px;
   /* background: blue; */
+}
+
+.main-menu ul :nth-child(1){
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.main-menu ul :nth-child(2){
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
 }

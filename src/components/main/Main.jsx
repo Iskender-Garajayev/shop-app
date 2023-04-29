@@ -7,8 +7,8 @@ const Main = () => {
     <div className="main-container">
       <div className="main-menu">
         <ul>
-          <li>Woman’s Fashion</li>
-          <li>Men’s Fashion</li>
+          <li> <span>Woman’s Fashion</span>  <ion-icon name="chevron-forward-outline"></ion-icon> </li>
+          <li> <span>Men’s Fashion</span>  <ion-icon name="chevron-forward-outline"></ion-icon></li>
           <li>Electronics</li>
           <li>Home & Lifestyle</li>
           <li>Medicine</li>
