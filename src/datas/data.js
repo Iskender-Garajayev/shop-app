@@ -4,7 +4,7 @@ const data = [
     image: 'image/controller.png',
     name: 'HAVIT HV-G92 Gamepad',
     price: '$120',
-    rating: 5,
+    rating: 4.5,
     category: 'Electronics',
     countInStock: 4,
     numReviews:8,

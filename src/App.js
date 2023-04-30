@@ -6,6 +6,7 @@ import About from './pages/about/About';
 import Singin from './pages/singin/Singin';
 import Cart from './pages/cart/Cart';
 import Wishlist from './pages/wishlist/Wishlist';
+import ProductScreen from './components/products/todays/Products/ProductScreen';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path='/signup' element={<Singin/>} />
           <Route path='/cart' element={<Cart/>} />
           <Route path='/wishlist' element={<Wishlist/>}/>
+          <Route path='/product/:id' element={<ProductScreen/>}/>
         </Routes>
       </BrowserRouter>
     </div>
