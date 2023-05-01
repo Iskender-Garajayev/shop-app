@@ -10,7 +10,9 @@ const Header = () => {
       <div className='header-container-inner'>
 
 <div className="header-logo">
+  <Link to='/'>
   Exclusive
+  </Link>
 </div>
 
 <div className="navbar">
