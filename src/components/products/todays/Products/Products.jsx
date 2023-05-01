@@ -5,14 +5,17 @@ import Rating from "./Rating";
 import { Link } from "react-router-dom";
 
 const Products = () => {
+  
   return (
     <>
       <div className="card-container">
         {data.map((data) => (
           <div key={data._id} className="card">
+              <Link to={`/product/${data._id}`} >
             <div className="img-container">
               <img src={data.image} alt="" />
             </div>
+              </Link>
             <div className="card-title">
               <Link to={`/product/${data._id}`}>
                 <h3>{data.name}</h3>
