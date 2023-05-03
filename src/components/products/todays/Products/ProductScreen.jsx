@@ -3,6 +3,10 @@ import data from "../../../../datas/data";
 import { Link, useParams} from "react-router-dom";
 import './ProductScreen.css'
 import Rating from "./Rating";
+import Header from '../../../Header/Header'
+import Footer from '../../../footer/Footer'
+import Products from "./Products";
+
 // import axios from "axios";
 
 
@@ -25,10 +29,10 @@ function ProductScreen  ({match}) {
 
   return (
     <div>
-    
+    <Header/>
       
       <div className="product-screen-container">
-      <Link to='/'>
+      <Link  to='/'>
       Go back
       </Link>
       <h3>{product.name}</h3>
@@ -39,7 +43,12 @@ function ProductScreen  ({match}) {
       <h3>{product.price}</h3>
       <Rating value={product.rating}/>
       </div>
+
+      <Products/>
       
+      <Footer/>
+
+
     </div>
   );
 }
