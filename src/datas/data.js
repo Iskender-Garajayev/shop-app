@@ -1,7 +1,8 @@
 const data = [
   {
     _id: '1',
-    image: 'image/controller.png',
+    image: 'https://github.com/Iskender-Garajayev/shop-app/blob/master/public/image/controller.png?raw=true',
+    // image: 'image/controller.png',
     name: 'HAVIT HV-G92 Gamepad',
     price: '$120',
     rating: 4.5,
@@ -11,7 +12,7 @@ const data = [
   },
   {
     _id: '2',
-    image: 'image/keybord.png',
+    image: 'https://github.com/Iskender-Garajayev/shop-app/blob/master/public/image/keybord.png?raw=true',
     name: 'AK-900 Wired Keyboard',
     price: '$300',
     rating: 4,
@@ -21,7 +22,7 @@ const data = [
   },
   {
     _id: '3',
-    image: 'image/monitor.png',
+    image: 'https://github.com/Iskender-Garajayev/shop-app/blob/master/public/image/monitor.png?raw=true',
     name: 'IPS LCD Gaming Monitor',
     price: '$890',
     rating: 4.5,
@@ -32,7 +33,8 @@ const data = [
 
   {
     _id: '4',
-    image: 'image/Chiar.png',
+    image: 'https://github.com/Iskender-Garajayev/shop-app/blob/master/public/image/Chiar.png?raw=true',
+    // image: 'image/Chiar.png',
     name: 'S-Series Comforte Chair',
     price: '$890',
     rating: 4,
