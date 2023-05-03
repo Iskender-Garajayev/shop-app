@@ -1,25 +1,40 @@
-.time-container{
+.time-container {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 10px;
 }
 
-.time-container div{
+.time-container div {
   display: flex;
   flex-direction: column;
-  /* width: 65px; */
-  /* align-items: center; */
-  font-size: 24px;
-  font-weight: 650;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #000000;
 }
 
-.time-container div p{
+.time-container div p {
   font-size: 12px;
   text-transform: capitalize;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+
+  /* Text2 */
+
+  color: #000000;
+  padding-bottom: 4px;
 }
 
-.time-container span{
+.time-container span {
   color: #E07575;
   font-size: 23px;
 }

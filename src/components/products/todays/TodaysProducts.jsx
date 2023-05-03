@@ -9,7 +9,14 @@ const TodaysProducts = () => {
       <div className="todays-title">
         
         <div className="flesh-sales">
+          <div className="red-title">
+            <div className="red"></div>
+            <h3>today's</h3>
+          </div>
 
+          <div className="todays-discription">
+            <h3>flesh sales</h3>
+          </div>
         </div>
 
         <div className="time-down">
