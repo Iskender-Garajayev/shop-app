@@ -14,6 +14,15 @@ const Products = () => {
               <Link to={`/product/${data._id}`} >
             <div className="img-container">
               <img src={data.image} alt="" />
+              {/* <div className="add-to-card">
+                <p>Add to Cart</p>
+                <i className="fas fa-cart-plus"></i>
+              </div> */}
+              <div className="card-icons">
+              <ion-icon name="heart-outline"></ion-icon>
+              <ion-icon name="eye-outline"></ion-icon>
+
+              </div>
             </div>
               </Link>
             <div className="card-title">
