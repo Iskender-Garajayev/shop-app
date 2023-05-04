@@ -12,17 +12,23 @@ import Products from "./Products";
 function ProductScreen({ match }) {
   const { id } = useParams();
   const product = data.find((product) => product._id === id);
-  const { name } = product;
+  // const { name } = product;
 
   return (
     <div>
       <Header />
 
+
+
       <div className="product-screen-container">
         <Link to="/">Go back</Link>
+
+
         <div className="image-container">
-          <img className="sigle-priduct" src={product.image} alt={name} />
+          <img className="sigle-priduct" src={product.image} alt={product.name} />
         </div>
+
+
         {/* <div>
           <img className="sigle-priduct" src={product.image2} alt={name} />
           <img className="sigle-priduct" src={product.image3} alt={name} />
@@ -30,12 +36,21 @@ function ProductScreen({ match }) {
           <img className="sigle-priduct" src={product.image5} alt={name} />
           <img className="sigle-priduct" src={product.image6} alt={name} />
         </div> */}
+
+        
+
         <h3>{product.price}</h3>
         <Rating value={product.rating} />
+
+
+
+
       </div>
 
-      <Products />
 
+
+
+      <Products />
       <Footer />
     </div>
   );
