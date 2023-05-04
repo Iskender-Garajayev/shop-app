@@ -14,4 +14,9 @@
   max-width: 1170px;
   height: 600px;
   margin: auto;
+  display: flex;
+}
+
+.product-screen-info-container{
+  /* color: black; */
 }

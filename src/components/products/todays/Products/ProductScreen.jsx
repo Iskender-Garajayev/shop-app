@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import data from "../../../../datas/data";
 import { Link, useParams } from "react-router-dom";
 import "./ProductScreen.css";
@@ -13,21 +13,30 @@ function ProductScreen({ match }) {
   const { id } = useParams();
   const product = data.find((product) => product._id === id);
   // const { name } = product;
+  const [count, setCount] = useState(1)
+
+  const increment = () => {
+    setCount(count + 1);
+  }
+
+  const decrement = () => {
+    setCount(count - 1);
+  }
 
   return (
     <div>
       <Header />
 
-
-
       <div className="product-screen-container">
         <Link to="/">Go back</Link>
 
-
         <div className="image-container">
-          <img className="sigle-priduct" src={product.image} alt={product.name} />
+          <img
+            className="sigle-priduct"
+            src={product.image}
+            alt={product.name}
+          />
         </div>
-
 
         {/* <div>
           <img className="sigle-priduct" src={product.image2} alt={name} />
@@ -37,19 +46,25 @@ function ProductScreen({ match }) {
           <img className="sigle-priduct" src={product.image6} alt={name} />
         </div> */}
 
-        
+        <div className="product-screen-info-container">
+          <div className="info-title">
+            <h3>{product.name}</h3>
+            <div className="title-rating">
+              <Rating value={product.rating} />
+              <p>{`(${product.numReviews} Rewiews) | `} <span>{`${product.stock > 0 ? 'In stock' : 'Not have in Stock' } `}</span></p>
+            <h3>{product.price}</h3>
+              <p>{product.description}</p>
+            </div>
 
-        <h3>{product.price}</h3>
-        <Rating value={product.rating} />
 
 
+            <button onClick={increment} ><ion-icon name="add-outline"></ion-icon></button>
+            <div>{count}</div>
+            <button onClick={decrement} ><ion-icon name="remove-outline"></ion-icon></button>
 
-
+          </div>
+        </div>
       </div>
-
-
-
-
       <Products />
       <Footer />
     </div>

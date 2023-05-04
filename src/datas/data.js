@@ -13,7 +13,8 @@ const data = [
     rating: 4.5,
     category: 'Electronics',
     countInStock: 4,
-    numReviews:8,
+    numReviews:23,
+    stock: 234,
   },
   {
     _id: '2',
@@ -24,6 +25,7 @@ const data = [
     category: 'Electronics',
     countInStock: 6,
     numReviews:6,
+    stock: 1,
   },
   {
     _id: '3',
@@ -34,6 +36,7 @@ const data = [
     category: 'Electronics',
     countInStock: 6,
     numReviews:6,
+    stock: 1,
   },
 
   {
@@ -46,6 +49,7 @@ const data = [
     category: 'home',
     countInStock: 8,
     numReviews: 9,
+    stock: 1,
   },
 ]
 
