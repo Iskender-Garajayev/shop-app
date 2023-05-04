@@ -15,8 +15,12 @@
   height: 600px;
   margin: auto;
   display: flex;
+  margin-top: 180px;
 }
 
+
+
 .product-screen-info-container{
-  /* color: black; */
+  width: 200px;
+
 }

@@ -12,7 +12,9 @@ import Products from "./Products";
 function ProductScreen({ match }) {
   const { id } = useParams();
   const product = data.find((product) => product._id === id);
-  // const { name } = product;
+  
+
+ 
   const [count, setCount] = useState(1)
 
   const increment = () => {
@@ -27,8 +29,8 @@ function ProductScreen({ match }) {
     <div>
       <Header />
 
-      <div className="product-screen-container">
         <Link to="/">Go back</Link>
+      <div className="product-screen-container">
 
         <div className="image-container">
           <img

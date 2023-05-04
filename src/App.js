@@ -7,6 +7,7 @@ import Singin from './pages/singin/Singin';
 import Cart from './pages/cart/Cart';
 import Wishlist from './pages/wishlist/Wishlist';
 import ProductScreen from './components/products/todays/Products/ProductScreen';
+import Categories from './components/products/categoriyes/Categories';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path='/cart' element={<Cart/>} />
           <Route path='/wishlist' element={<Wishlist/>}/>
           <Route path='/product/:id' element={<ProductScreen/>}/>
+          <Route path='/:category' element={<Categories/>}/>
         </Routes>
       </BrowserRouter>
     </div>
