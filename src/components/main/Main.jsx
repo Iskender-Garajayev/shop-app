@@ -26,7 +26,7 @@ const Main = () => {
             <li>
               <Link to='/Electronics'>Electronics</Link>
             </li>
-              <Link to='/home'>Home & Lifestyle</Link>
+              <Link to='/home&lifestyle'>Home & Lifestyle</Link>
             <li></li>
             <li>Medicine</li>
             <li>Sports & Outdoor</li>
