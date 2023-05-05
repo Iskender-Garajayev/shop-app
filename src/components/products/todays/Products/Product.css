@@ -2,9 +2,10 @@
   width: 1170px;
   margin: auto;
   color: black;
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  /* flex-direction: row; */
+  gap: 10px;
 
 }
 .card{

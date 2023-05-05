@@ -13,7 +13,6 @@ const Category = () => {
   return (
     <>
     <Header/>
-    
     <div className="card-container">
       {categories.map((category) => (
       <div key={category.category} className="card">
