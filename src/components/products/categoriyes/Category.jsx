@@ -1,13 +1,13 @@
 import React from "react";
 import allDatas from "../../../datas/allDatas";
 import Rating from "../todays/Products/Rating";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Header from "../../Header/Header";
 import Footer from "../../footer/Footer";
 
 const Category = () => {
-  // const { category } = useParams();
-  // const product = allDatas.find((product) => product.category === category);
+  const { category } = useParams();
+  allDatas.find((product) => product.category === category);
   const categories = allDatas.filter((c) => c.category === 'Electronics');
 
   return (

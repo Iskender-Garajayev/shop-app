@@ -8,6 +8,7 @@ import Cart from './pages/cart/Cart';
 import Wishlist from './pages/wishlist/Wishlist';
 import ProductScreen from './components/products/todays/Products/ProductScreen';
 import Category from './components/products/categoriyes/Category';
+import HomeLifestyle from './components/products/homeLifestyle/HomeLifestyle';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path='/wishlist' element={<Wishlist/>}/>
           <Route path='/product/:id' element={<ProductScreen/>}/>
           <Route path='/:category' element={<Category/>}/>
+          <Route path='/home' element={<HomeLifestyle/>}/>
         </Routes>
       </BrowserRouter>
     </div>
