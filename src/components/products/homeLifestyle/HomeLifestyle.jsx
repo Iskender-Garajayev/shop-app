@@ -8,8 +8,8 @@ import Rating from '../todays/Products/Rating';
 
 
 const HomeLifestyle = () => {
-  // const { category } = useParams();
-  // const product = allDatas.find((product) => product.category === category);
+  const { category } = useParams();
+  allDatas.find((product) => product.category === category);
   const home = allDatas.filter((h) => h.category === 'home');
   
 
@@ -20,7 +20,7 @@ const HomeLifestyle = () => {
     
     <div className="card-container">
       {home.map((home) => (
-      <div className="card">
+      <div key={home.category} className="card">
         <Link to={`/product/${home._id}`}>
           <div className="img-container">
             <img src={home.image} alt="" />

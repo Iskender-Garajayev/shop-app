@@ -16,7 +16,7 @@ const Category = () => {
     
     <div className="card-container">
       {categories.map((category) => (
-      <div className="card">
+      <div key={category.category} className="card">
         <Link to={`/product/${category._id}`}>
           <div className="img-container">
             <img src={category.image} alt="" />
