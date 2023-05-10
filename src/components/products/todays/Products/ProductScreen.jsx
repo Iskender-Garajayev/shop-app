@@ -1,17 +1,18 @@
 import React, { useState } from "react";
-import data from "../../../../datas/data";
+// import data from "../../../../datas/data";
 import { Link, useParams } from "react-router-dom";
 import "./ProductScreen.css";
 import Rating from "./Rating";
 import Header from "../../../Header/Header";
 import Footer from "../../../footer/Footer";
 import Products from "./Products";
+import allDatas from "../../../../datas/allDatas";
 
 // import axios from "axios";
 
 function ProductScreen({ match }) {
   const { id } = useParams();
-  const product = data.find((product) => product._id === id);
+  const product = allDatas.find((product) => product._id === id);
   
 
  
