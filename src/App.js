@@ -9,6 +9,7 @@ import Wishlist from './pages/wishlist/Wishlist';
 import ProductScreen from './components/products/todays/Products/ProductScreen';
 import Category from './components/products/categoriyes/Category';
 import HomeLifestyle from './components/products/homeLifestyle/HomeLifestyle';
+import ProductCategory from './components/products/categoriyes/ProductCategory';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path='/wishlist' element={<Wishlist/>}/>
           <Route path='/product/:id' element={<ProductScreen/>}/>
           <Route path='/:category' element={<Category/>}/>
+          <Route path='/:categori' element={<ProductCategory/>}/>
           <Route path='/home&lifestyle' element={<HomeLifestyle/>}/>
         </Routes>
       </BrowserRouter>
