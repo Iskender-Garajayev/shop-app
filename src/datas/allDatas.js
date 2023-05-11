@@ -150,7 +150,7 @@ const allDatas = [
     image: 'https://github.com/Iskender-Garajayev/shop-app/blob/master/public/image/b-red.png?raw=true',
     // image: 'image/Chiar.png',
     name: 'The north coat',
-    price: '378',
+    price: '$378',
     description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aliquam veniam debitis deleniti. Soluta, illum.',
     rating: 4,
     section: 'BestSelling',
