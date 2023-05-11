@@ -279,6 +279,20 @@ const allDatas = [
     numReviews: 9,
     stock: 1,
   },
+  // {
+  //   _id: '19',
+  //   image: 'https://www.apple.com/v/iphone-14/h/images/key-features/features/size/size_yellow__dnv9794q7loy_large.jpg',
+  //   // image: 'image/Chiar.png',
+  //   name: 'Breed Dry Dog Food',
+  //   price: '$890',
+  //   description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aliquam veniam debitis deleniti. Soluta, illum.',
+  //   rating: 4,
+  //   section: 'Explore',
+  //   category: 'Electronics',
+  //   countInStock: 8,
+  //   numReviews: 9,
+  //   stock: 1,
+  // },
   
 
 ]
