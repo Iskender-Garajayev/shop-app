@@ -5,6 +5,7 @@ import Main from '../../components/main/Main'
 import TodaysProducts from '../../components/products/todays/TodaysProducts'
 import Explore from '../../components/products/Explore/Explore'
 import BestSelling from '../../components/products/BestSalling/BestSelling'
+import SearchCaregory from '../../components/SearchCategory/SearchCaregory'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Header/>
       <Main/>
       <TodaysProducts/>
+      <SearchCaregory/>
       <BestSelling/>
       <Explore/>
       <Footer/>
