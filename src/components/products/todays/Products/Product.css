@@ -7,14 +7,20 @@
   /* flex-direction: row; */
   gap: 10px;
   margin-top: 40px;
-
 }
+
+.card:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: .2s;
+}
+
 .card{
   width: 270px;
   height: 350px;
   color: black;
   display: flex;
   flex-direction: column;
+  margin-bottom: 15px;
 }
 
 .img-container{
@@ -35,6 +41,7 @@
   font-size: 16px;
   font-weight: 500;
   margin-top: 16px;
+  margin-left: 10px;
 }
 
 .price-rating{
@@ -42,6 +49,7 @@
   flex-direction: row;
   gap: 10px;
   margin-top: 8px;
+  margin-left: 10px;
 }
 
 .price-rating span{
@@ -50,3 +58,6 @@
   font-weight: 500;
 }
 
+/* .add-to-card{
+  display: none;
+} */

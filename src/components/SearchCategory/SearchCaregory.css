@@ -21,6 +21,7 @@ width: 170px;
 .category-container :hover{
   background:#DB4444 ;
   color: #fff;
+  transition: .3s;
 }
 
 .category :nth-child(1){
