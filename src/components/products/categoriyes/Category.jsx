@@ -35,8 +35,9 @@ const Category = () => {
           </Link>
 
           <div className="price-rating">
-            <span>{category.price}</span>
+            <span className="price" >{category.price}</span>
             <Rating value={category.rating} />
+            <span>({category.numReviews})</span>
           </div>
         </div>
       </div>

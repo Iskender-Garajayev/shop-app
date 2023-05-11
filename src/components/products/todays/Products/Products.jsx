@@ -31,8 +31,9 @@ const Products = () => {
               </Link>
 
               <div className="price-rating">
-                <span>{data.price}</span>
+                <span className="price" >{data.price}</span>
                 <Rating value={data.rating} />
+                <span>({data.numReviews})  </span>
               </div>
             </div>
           </div>
