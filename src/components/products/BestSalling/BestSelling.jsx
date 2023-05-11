@@ -21,7 +21,7 @@ const BestSelling = () => {
             <h3>This Month</h3>
           </div>
 
-          <div className="todays-discription">
+          <div className="todays-discription-all">
             <h3>Best Selling Products</h3>
           </div>
         </div>

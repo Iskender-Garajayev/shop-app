@@ -21,7 +21,7 @@ const Explore = () => {
             <h3>Our Products</h3>
           </div>
 
-          <div className="todays-discription">
+          <div className="todays-discription-all">
             <h3>Explore Our Products</h3>
           </div>
         </div>
