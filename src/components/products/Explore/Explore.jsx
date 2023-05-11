@@ -52,8 +52,9 @@ const Explore = () => {
           </Link>
 
           <div className="price-rating">
-            <span>{home.price}</span>
+            <span className='price'>{home.price}</span>
             <Rating value={home.rating} />
+            <span>({home.numReviews})</span>
           </div>
         </div>
       </div>
