@@ -32,7 +32,7 @@ function ProductScreen({ match }) {
       <div className="product-screen-container">
         <div className="image-container">
           <img
-            className="sigle-priduct"
+            className="sigle-product"
             src={product.image}
             alt={product.name}
           />
@@ -40,19 +40,21 @@ function ProductScreen({ match }) {
 
         <div className="product-screen-info-container">
           <div className="info-title">
-            <h3>{product.name}</h3>
+            <h3 className="product-name" >{product.name}</h3>
             <div className="title-rating">
               <Rating value={product.rating} />
               <p>
-                {`(${product.numReviews} Rewiews) | `}{" "}
+                {`(${product.numReviews} Rewiews) | `}
                 <span>{`${
                   product.stock > 0 ? "In stock" : "Not have in Stock"
                 } `}</span>
               </p>
-              <h3>{product.price}</h3>
-              <p>{product.description}</p>
             </div>
-            <div className="check-box">{product.color}</div>
+              <h3 className="product-price" >{product.price}</h3>
+              <p className="profuct-descp" >{product.description}</p>
+            <div className="check-box">
+              <p>Color:   <span className={product.color[0] = 'red' && 'red'}>{product.color[0]}</span> <span>{product.color[1]}</span> </p>
+            </div>
 
             <button onClick={increment}>
               <ion-icon name="add-outline"></ion-icon>

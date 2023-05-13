@@ -1,4 +1,4 @@
-.sigle-priduct {
+.sigle-product {
   object-fit: cover;
 }
 
@@ -15,13 +15,61 @@
   max-width: 1170px;
   height: 600px;
   margin: auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 70px;
   margin-top: 100px;
 }
 
 
-
 .product-screen-info-container{
-  width: 200px;
-
+  width: 400px;
 }
+
+
+.product-name{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #000000;
+}
+
+.title-rating{
+  display: flex;
+  gap: 13px;
+  margin-top: 16px;
+}
+
+.product-price{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #000000;
+margin-top: 16px;
+}
+
+.profuct-descp{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #000000;
+border-bottom: black 1px solid;
+padding-bottom: 24px;
+margin-top: 24px;
+}
+
+.red{
+  width: 20px;
+  background: red;
+  border: #000000 1px solid;
+}
+
