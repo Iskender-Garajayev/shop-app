@@ -53,7 +53,11 @@ function ProductScreen({ match }) {
               <h3 className="product-price" >{product.price}</h3>
               <p className="profuct-descp" >{product.description}</p>
             <div className="check-box">
-              <p>Color:   <span className={product.color[0] = 'red' && 'red'}>{product.color[0]}</span> <span>{product.color[1]}</span> </p>
+              <p>Color </p>
+              <button  className={product.color[0] = 'red' && 'red'}></button>
+              <button  className={product.color[1] = 'white' && 'white'}></button>
+            
+            
             </div>
 
             <button onClick={increment}>
