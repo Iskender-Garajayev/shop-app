@@ -10,7 +10,7 @@ const Time = () => {
     seconds: 0,
   });
 
-  const countdownDate = new Date('2026-12-31T00:00:00Z').getTime(); // Change this to your desired countdown date
+  const countdownDate = new Date('2025-12-31T00:00:00Z').getTime(); // Change this to your desired countdown date
 
   useEffect(() => {
     const interval = setInterval(() => {
