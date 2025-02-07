@@ -1,4 +1,4 @@
-.contacts-container{
+.contacts-container {
   width: 1170px;
   margin: auto;
   display: flex;
@@ -7,7 +7,7 @@
   justify-content: space-between; */
 }
 
-.call-write{
+.call-write {
   width: 340px;
   height: 460px;
   display: flex;
@@ -16,18 +16,17 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.call{
-  
+.call {
 }
 
-.email-container{
+.email-container {
   width: 800px;
   height: 460px;
   background: lightgreen;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.contact-icon{
+.contact-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,5 +35,5 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #DB4444;
+  background: #db4444;
 }
