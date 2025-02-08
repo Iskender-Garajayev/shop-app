@@ -8,7 +8,7 @@
   justify-content: center;
   width: 350px;
   height: 400px;
-  background:#f5f5f5 ;
+  background: #f5f5f5;
 }
 
 .product-screen-container {
@@ -22,56 +22,53 @@
   margin-top: 100px;
 }
 
-
-.product-screen-info-container{
+.product-screen-info-container {
   width: 400px;
 }
 
-
-.product-name{
+.product-name {
   font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 24px;
-letter-spacing: 0.03em;
-color: #000000;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #000000;
 }
 
-.title-rating{
+.title-rating {
   display: flex;
   gap: 13px;
   margin-top: 16px;
 }
 
-.product-price{
+.product-price {
   font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 24px;
-letter-spacing: 0.03em;
-color: #000000;
-margin-top: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  margin-top: 16px;
 }
 
-.profuct-descp{
+.profuct-descp {
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 21px;
-color: #000000;
-border-bottom: black 1px solid;
-padding-bottom: 24px;
-margin-top: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  border-bottom: black 1px solid;
+  padding-bottom: 24px;
+  margin-top: 24px;
 }
 
-.check-box{
+.check-box {
   display: flex;
   margin-top: 14px;
 }
-
 
 /* .red{
   width: 20px;
@@ -91,3 +88,19 @@ margin-top: 24px;
 
 } */
 
+.counter {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.counter-num {
+  border: 1px black solid;
+  border-radius: 5px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
