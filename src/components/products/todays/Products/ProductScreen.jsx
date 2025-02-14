@@ -28,7 +28,7 @@ function ProductScreen({ match }) {
     <div>
       <Header />
 
-      <Link to='/'>Go back</Link>
+      <Link className='go-back' to='/'>Go back</Link>
       <div className='product-screen-container'>
         <div className='image-container'>
           <img

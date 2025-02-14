@@ -104,3 +104,10 @@
   align-items: center;
   justify-content: center;
 }
+
+.go-back{
+  height: 30px;
+  width: 80px;
+  margin-left: 7%;
+  margin-top: 50px;
+}
