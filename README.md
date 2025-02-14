@@ -15,7 +15,7 @@ Shop App is a modern web application for building and managing an online store. 
 
 [Live Demo](https://shop-app-i-g.vercel.app)
 
-![Shop App Demo](https://github.com/Iskender-Garajayev/shop-app/blob/master/src/img/brave_aJtnSKsWHF.gif)
+![Shop App Demo](./src/img/brave_aJtnSKsWHF.gif)
 
 _This is a placeholder for a GIF demonstrating the app in action._
 
