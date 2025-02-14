@@ -18,7 +18,7 @@ const Contacts = () => {
             </p>
             <p>We are available 24/7, 7 days a week.</p>
             <p>
-              Phone:<a href='tel:+905451522343'>+905451522343</a>{' '}
+              Phone:<a href='tel:+905451522343'>+905451522343</a>
             </p>
           </div>
 
