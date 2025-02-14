@@ -13,7 +13,10 @@ Shop App is a modern web application for building and managing an online store. 
 
 ## Demo
 
-![Shop App Demo](./path-to-your-gif.gif)  
+[Live Demo](https://shop-app-i-g.vercel.app)
+
+![Shop App Demo](https://github.com/Iskender-Garajayev/shop-app/blob/master/src/img/brave_aJtnSKsWHF.gif)
+
 _This is a placeholder for a GIF demonstrating the app in action._
 
 ## Tech Stack
@@ -28,27 +31,3 @@ _This is a placeholder for a GIF demonstrating the app in action._
 - **React Router**: A library for managing routing and navigation in React apps, enabling single-page navigation without full page reloads.
 - **React-Bootstrap**: React components rebuilt from the Bootstrap framework for seamless integration with React applications.
 - **React Icons**: A library of customizable icons for use in React projects, improving the UI’s visual appeal.
-
-## Installation
-
-To install the project dependencies, run the following command:
-
-```bash
-npm install
-
-
-Development Mode
-To start the app in development mode, use the following command:
-
-npm start
-
-
-Building the Project
-To build the project for production, use the following command:
-
-npm run build
-
-[Live Demo](https://shop-app-i-g.vercel.app)
-
-![Shop App Demo](https://github.com/Iskender-Garajayev/shop-app/blob/master/src/img/brave_aJtnSKsWHF.gif)
-```
